@@ -106,7 +106,118 @@
       }
     ]
   },
-
+  {
+    "id": 1,
+    "name": "Resturants",
+    "image": "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=332&q=80",
+    "resturants": [
+      {
+        "id": 1,
+        "name": "Varun Resturant",
+        "image": "https://images.unsplash.com/photo-1513618364580-fe1596762e8e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdHVyYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 3.5,
+        "open": false
+      },
+      {
+        "id": 2,
+        "name": "Sonu Resturant",
+        "image": "https://images.unsplash.com/photo-1555992338-d0bacb780a2c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdHVyYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4.5,
+        "open": true
+      },
+      {
+        "id": 3,
+        "name": "Indian Cafe House",
+        "image": "https://images.unsplash.com/photo-1513618425849-06cbc6c2d0a9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHJlc3R1cmFudHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 2.9,
+        "open": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Resturants",
+    "image": "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=332&q=80",
+    "resturants": [
+      {
+        "id": 1,
+        "name": "Varun Resturant",
+        "image": "https://images.unsplash.com/photo-1513618364580-fe1596762e8e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdHVyYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 3.5,
+        "open": false
+      },
+      {
+        "id": 2,
+        "name": "Sonu Resturant",
+        "image": "https://images.unsplash.com/photo-1555992338-d0bacb780a2c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdHVyYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4.5,
+        "open": true
+      },
+      {
+        "id": 3,
+        "name": "Indian Cafe House",
+        "image": "https://images.unsplash.com/photo-1513618425849-06cbc6c2d0a9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHJlc3R1cmFudHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 2.9,
+        "open": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Resturants",
+    "image": "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=332&q=80",
+    "resturants": [
+      {
+        "id": 1,
+        "name": "Varun Resturant",
+        "image": "https://images.unsplash.com/photo-1513618364580-fe1596762e8e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdHVyYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 3.5,
+        "open": false
+      },
+      {
+        "id": 2,
+        "name": "Sonu Resturant",
+        "image": "https://images.unsplash.com/photo-1555992338-d0bacb780a2c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdHVyYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4.5,
+        "open": true
+      },
+      {
+        "id": 3,
+        "name": "Indian Cafe House",
+        "image": "https://images.unsplash.com/photo-1513618425849-06cbc6c2d0a9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHJlc3R1cmFudHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 2.9,
+        "open": true
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Resturants",
+    "image": "https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=332&q=80",
+    "resturants": [
+      {
+        "id": 1,
+        "name": "Varun Resturant",
+        "image": "https://images.unsplash.com/photo-1513618364580-fe1596762e8e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cmVzdHVyYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 3.5,
+        "open": false
+      },
+      {
+        "id": 2,
+        "name": "Sonu Resturant",
+        "image": "https://images.unsplash.com/photo-1555992338-d0bacb780a2c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdHVyYW50c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 4.5,
+        "open": true
+      },
+      {
+        "id": 3,
+        "name": "Indian Cafe House",
+        "image": "https://images.unsplash.com/photo-1513618425849-06cbc6c2d0a9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fHJlc3R1cmFudHN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        "ratings": 2.9,
+        "open": true
+      }
+    ]
+  },
   {
     "id": 4,
     "name": "Coffee",
