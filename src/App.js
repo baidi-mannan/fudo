@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './index.css'
+import Dishes from './components/Dishes'
+import  DishesList from './Dishes.json'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => {
+    
+    
+    
+    return (
+        
+<div className="box1">
+ <div className="container">
+    <div className="body">
+    
+
+            
+     
+      {DishesList.map(dish =>(
+       <Dishes
+           id={dish.id}
+           name={dish.name}
+           img={dish.image}
+           count={dish.resturants.length}
+           resturants={dish.resturants}
+       />
+      ))}
+      
+
+            
+    
+    
+ 
     </div>
-  );
+ 
+  </div> 
+</div>
+)
 }
 
-export default App;
+export default App
