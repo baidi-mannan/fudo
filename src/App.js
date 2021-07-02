@@ -1,40 +1,20 @@
 import React from 'react'
-import './index.css'
-import Dishes from './components/Dishes'
-import  DishesList from './Dishes.json'
+import DishesList from './DishesList'
+import ResturantsList from './ResturantsList'
+import {Route,Switch} from 'react-router-dom'
 
 const App = () => {
     
     
     
     return (
-        
-<div className="box1">
- <div className="container">
-    <div className="body">
+ <> 
+ <Switch>
+    <Route exact path="/" component={DishesList}/>
+    <Route  path="/api/categories/:id" component={ResturantsList}/>
+ </Switch>
     
-
-            
-     
-      {DishesList.map(dish =>(
-       <Dishes
-           id={dish.id}
-           name={dish.name}
-           img={dish.image}
-           count={dish.resturants.length}
-           resturants={dish.resturants}
-       />
-      ))}
-      
-
-            
-    
-    
- 
-    </div>
- 
-  </div> 
-</div>
+</>
 )
 }
 
