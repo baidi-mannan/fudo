@@ -9,16 +9,41 @@ const ResturantsList = () => {
     
     const { id } = useParams();
     
-    var result = DishesJson.find(t=>t.id == id);
-    console.log(id)
-    console.log(result.resturants);
+    var result = DishesJson.find(t=>t.id == id).resturants;
+    
 
     
     return (
  <> 
+  <div className="box1">
+      <div className="container">
+          <div className="body">
+    
+
+            
+     
+            {result.map(dish =>(
+       <Resturant
+           id={dish.id}
+           name={dish.name}
+           img={dish.image}
+           ratings={dish.ratings}
+           isOpen={dish.open}
+       />
+            ))}
+      
+
+            
+    
+    
+ 
+          </div>
+ 
+      </div> 
+  </div>
      
     
-    <h1 style={{color: "black"}}> HYYY ResturantsList</h1>
+    
 
 
 </>
